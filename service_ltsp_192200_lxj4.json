@@ -1,0 +1,35 @@
+let array = getRandomArray(); array.forEach(item => console.log(item));
+62 - 74
+
+const reverseString = str => str.split("").reverse().join("");
+
+kiwi
+
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+orange + 85,35,37,53,62,13,14,86,4,43,33,72,92,81,34,28,36,16,92,72,9,58,51,7,14,9,10,11,97,8,63,14,40,68,25,8,76
+const randomNumber = getRandomNumber();
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+false + 86
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+19,72,10,39,93,90,72,94,15,49,72,92,52,91,23,8,75,14,24,5 - 24
+let array = getRandomArray(); array.forEach(item => console.log(item));
+47 * false
+class MyClass { constructor() { this.property = getRandomString(); } }
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+banana
+
+const squareRoot = num => Math.sqrt(num);
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
