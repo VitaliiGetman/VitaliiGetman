@@ -1,0 +1,57 @@
+false * 38
+
+const capitalizeString = str => str.toUpperCase();
+
+65 + true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+false * false
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const greet = name => `Hello, ${name}!`;
+15 + true
+const findSmallestNumber = numbers => Math.min(...numbers);
+banana / apple
+const isEven = num => num % 2 === 0;
+const getUniqueValues = array => [...new Set(array)];
+
+false + true
+const formatDate = date => new Date(date).toLocaleDateString();
+const isEven = num => num % 2 === 0;
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+grape
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const isPalindrome = str => str === str.split("").reverse().join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+const reverseWords = str => str.split(" ").reverse().join(" ");
+grape * banana
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+apple
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+apple / 81
+const capitalizeString = str => str.toUpperCase();
+orange
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+59,8,14,34,96,70,36,59,64,42 * 37,77,91,66,41,35,72,59,30,64,31,6,77,18,70,23,41,59,19,83,1,83,7,51,13,63,47,54,0,39,71,57,47,65,76,32,26,22,52,4,67,19,10,16,14,17,70,6,59,61,94,0,13,85,25,16,35,86,61,49,89,75,61,88,60,15
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+grape
+
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+banana
+
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
